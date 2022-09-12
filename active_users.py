@@ -47,5 +47,6 @@ answer = df8['user_id'].unique().tolist()
 
 answer
 
+#apparently the difference between values in rows can be calculated using .diff() in python, and i didn't need to use shift() at all! 
 
 
