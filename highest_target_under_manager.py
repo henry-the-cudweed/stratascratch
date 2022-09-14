@@ -42,4 +42,5 @@ df2 = df.loc[(df['target']).isin(rank0)]
 ### answer
 df2[["first_name","target"]]
 
-
+############ notes
+### i could have also used the pandas function df.max() to find the top value instead of making a rank, and throwing the top ranking value into a list
